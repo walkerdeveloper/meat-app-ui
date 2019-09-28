@@ -12,6 +12,7 @@ import { ROUTES } from './app.routes';
 import { RestaurantsComponent } from './restaurants/restaurants.component';
 import { RestaurantComponent } from './restaurants/restaurant/restaurant.component';
 import { RestaurantService } from './restaurants/restaurant/restaurant.service';
+import { RestaurantDetailComponent } from './restaurant/restaurant-detail/restaurant-detail.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { RestaurantService } from './restaurants/restaurant/restaurant.service';
     HomeComponent,
     AboutComponent,
     RestaurantsComponent,
-    RestaurantComponent
+    RestaurantComponent,
+    RestaurantDetailComponent
   ],
   imports: [
     BrowserModule,
